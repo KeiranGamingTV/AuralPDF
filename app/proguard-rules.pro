@@ -1,0 +1,5 @@
+-keep class org.opencv.** { *; }
+-keep class com.tom_roush.pdfbox.** { *; }
+-dontwarn com.gemalto.jp2.**
+-dontwarn org.bouncycastle.**
+-dontwarn javax.xml.crypto.**
